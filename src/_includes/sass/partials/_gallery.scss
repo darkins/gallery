@@ -16,7 +16,7 @@
     margin: 1.5rem auto 1rem auto;
     list-style: none;
 }
-    
+
 .gallery-item {
     margin: .5rem auto;
 
@@ -63,7 +63,7 @@
 .image-grid {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
     gap: 3px;
     max-width: 1100px;
     margin: 1rem auto 3rem auto;
@@ -71,7 +71,7 @@
     padding-right: 1.5rem;
 
     .image-container {
-        height: 20rem;
+        height: auto;
         overflow: hidden;
         border-radius: 2px;
 
@@ -84,6 +84,7 @@
                 filter: brightness(99%);
                 transition: filter 0.5s ease;
             }
+
             img {
                 &:hover {
                     filter: brightness(110%);
@@ -92,6 +93,7 @@
                     cursor: pointer;
                 }
             }
+
             &:focus {
                 img {
                     border: 3px solid #07c;

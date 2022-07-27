@@ -3,6 +3,7 @@
 *,
 *::before,
 *::after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -76,11 +77,15 @@ select {
      cascade will adhere to this accessibility enhancement */
   /* stylelint-disable declaration-no-important */
   * {
+    -webkit-animation-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
     animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
+/*# sourceMappingURL=reset.css.map */
 
 /*# sourceMappingURL=reset.css.map */

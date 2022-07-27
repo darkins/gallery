@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Annagh Head II",
+        "date": "October 20, 2021",
+        "credit": "Photo by Declan",
+        "linkToAuthor": "/",
+        "src": "annagh-head-II-2021-35x38-acrylic-paper.jpg",
+        "alt": "Annagh Head II",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "August Headland",
+        "date": "October 20, 2021",
+        "credit": "Photo by Alan",
+        "linkToAuthor": "/",
+        "src": "august-headland-2021-76x105-acrylic-paper.jpg",
+        "alt": "August Headland",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "By the Pier",
+        "date": "October 20, 2021",
+        "credit": "Photo by Me",
+        "linkToAuthor": "/",
+        "src": "by-the-pier-2021-26x29-acrylic-paper.jpg",
+        "alt": "By the Pier",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "By the Strand",
+        "date": "October 20, 2021",
+        "credit": "Photo by Me",
+        "linkToAuthor": "/",
+        "src": "by-the-strand-2021-100x120-oil-canvas.jpg",
+        "alt": "By the Strand",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "Dunlough bay diptych",
+        "date": "October 20, 2021",
+        "credit": "Photo by Me",
+        "linkToAuthor": "/",
+        "src": "dunlough-bay-diptych-2021-120x200-oil-canvas.jpg",
+        "alt": "Dunlough bay diptych",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "Inishkea South Island",
+        "date": "October 20, 2021",
+        "credit": "Photo by Me",
+        "linkToAuthor": "/",
+        "src": "inishkea-south-island-2021-70x80-oil-canvas.jpg",
+        "alt": "Inishkea South Island",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "Road from Lacken",
+        "date": "October 20, 2021",
+        "credit": "Photo by Me",
+        "linkToAuthor": "/",
+        "src": "road-from-lacken-2021-26x29-acrylic-paper.jpg",
+        "alt": "Road from Lacken",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "Ross Strand",
+        "date": "October 20, 2021",
+        "credit": "Photo by Me",
+        "linkToAuthor": "/",
+        "src": "ross-strand-2021-76x105-acrylic-paper.jpg",
+        "alt": "Ross Strand",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "Tides Turn II",
+        "date": "October 20, 2021",
+        "credit": "Photo by Me",
+        "linkToAuthor": "/",
+        "src": "tide-turns-II-2021-I-70x80-oil-canvas.jpg",
+        "alt": "Tides Turn II",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "Towards the Pier",
+        "date": "October 20, 2021",
+        "credit": "Photo by Me",
+        "linkToAuthor": "/",
+        "src": "towards-the-pier-2021-76x105-acrylic-paper.jpg",
+        "alt": "Towards the Pier",
+        "imgDir": "/static/img/work/strands/"
+    }
+]
