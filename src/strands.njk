@@ -1,0 +1,62 @@
+---
+eleventyNavigation:
+  key: Strands
+  order: 3
+heading: Strands
+description: Claremorris Gallery, Nov 20th to Dec 20th 2021. Strands by Donald Teskey.
+layout: main.njk
+title: Eleventy Photo Gallery Template
+meta_desc: A collection of paintings from the exhibition Strands.
+---
+
+<div class="page-banner">
+    <section class="grid">
+        <aside>
+            <picture>
+                <source
+                    type="image/webp"
+                    srcSet="/static/img/work/strands/annagh-head-II-2021-35x38-acrylic-paper-320.webp 320w,
+                        /static/img/work/strands/annagh-head-II-2021-35x38-acrylic-paper-640.webp 640w,
+                        /static/img/work/strands/annagh-head-II-2021-35x38-acrylic-paper-1024.webp 1024w"
+                    sizes="(max-width: 450px) 33.3vw, 100vw">
+                    <img
+                        srcSet="/static/img/work/strands/annagh-head-II-2021-35x38-acrylic-paper-320.jpeg 320w,
+                            /static/img/work/strands/annagh-head-II-2021-35x38-acrylic-paper-640.jpeg 640w,
+                            /static/img/work/strands/annagh-head-II-2021-35x38-acrylic-paper-1024.jpeg 1024w"
+                        sizes="(max-width: 450px) 33.3vw, 100vw"
+                        src="car-320.jpeg"
+                        alt="Annagh Head II"
+                        class="my-image"
+                        width="1024"
+                        height="768"></picture>
+                </aside>
+                <article>
+                    <h1>{{ heading }}</h1>
+                    <p>{{ description }}</p>
+                    <p>
+                        STRANDS features sixteen new works by Irish painter, Donald Teskey, mostly created in County Mayo during the summer of
+                        2021. Teskey has a longstanding connection with North Mayo, beginning with a residency in the Ballinglen Arts Foundation
+                        over twenty-six years ago. Teskey’s iconic representations of the western seaboard are by now firmly fixed in the canon
+                        of Irish Art. The 5km travel restrictions put Teskey’s planned trip to his beloved Mayo on hold but In August 2021,
+                        Teskey returned to Ballycastle in North Mayo. The theatrical compositions he created during this residency there depict
+                        Teskey’s unmistakable coastline, its sheets of barren rock and crashing waves with the pull of the Atlantic from sheer
+                        cliffs. In this exhibition, there’s something new in how he conveys the dynamism of this most elemental landscape.
+                    </p>
+                    <p>
+                        Rosemarie Noone, owner, Claremorris Gallery notes, “The newness of the landscape to the artist upon his return after an
+                        extended hiatus is reflected in these paintings, his eye perhaps recalibrated by the isolation of the lockdown.”Speaking
+                        about this body of work, Donald Teskey said, “I brought together a selection of recent paintings which explore themes of
+                        landscape, environment, a sense of place, the new and the familiar all immersed in light and atmosphere and a love of
+                        paint.”
+                    </p>
+                    <p>
+                        Over the years, Teskey has participated in group shows in Claremorris Gallery but this is his first solo exhibition in a
+                        commercial gallery in the West of Ireland.
+                    </p>
+                    <p>
+                        Claremorris Gallery Mount Street Claremorris County Mayo 087 791 2337 rsnoone@gmail.com www.claremorrisgallery.ie
+                    </p>
+                </article>
+            </section>
+        </div>
+        {% include "work/strands/collection.njk" %}

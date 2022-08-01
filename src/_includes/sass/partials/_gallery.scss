@@ -60,6 +60,30 @@
     }
 }
 
+.grid {
+    display: flex;
+    gap: 2em;
+
+    aside {
+        flex-basis: 300em;
+
+        img {
+            height: auto;
+            margin-bottom: 2em;
+        }
+    }
+
+    article p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 897px) {
+    .grid {
+        display: block;
+    }
+}
+
 .image-grid {
     list-style: none;
     display: grid;

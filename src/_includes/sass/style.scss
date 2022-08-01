@@ -33,6 +33,7 @@ p {
     line-height: 1.5;
     font-family: $system-font;
 }
+
 a {
     color: $link-blue-accessible;
     text-decoration: none;
@@ -54,7 +55,12 @@ main {
         margin-bottom: 24px;
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin-bottom: 24px;
     }
 
@@ -70,6 +76,18 @@ main {
         margin: 0 auto;
         margin-bottom: 2rem;
         font-size: 30px;
+    }
+
+    .grid-thumb {
+        /*column-count: 6;
+        column-gap: 0.3em;*/
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 0 0.3em;
+
+        .img-thumb {
+            margin-bottom: 0.3em;
+        }
     }
 }
 
@@ -89,19 +107,26 @@ main {
     }
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: $system-font;
     color: #212121;
 }
 
-h1, .h1 {
+h1,
+.h1 {
     $min-size: 2.75rem;
     $pref-size: 8vw;
     $max-size: 3.25rem;
     font-size: clamp(2.75rem, 8vw, 3.25rem);
+    text-transform: uppercase;
 }
 
-h2, .h2 {
+h2,
+.h2 {
     $min-size: 1.5rem;
     $pref-size: 5vw;
     $max-size: 1.8rem;
@@ -113,8 +138,8 @@ h2, .h2 {
 }
 
 .about-page {
-    min-height: 100vh; 
-    display: flex; 
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
 }
 
@@ -123,10 +148,10 @@ h2, .h2 {
 }
 
 .image-description {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 1.5rem auto 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -155,6 +180,7 @@ h2, .h2 {
 
     h1 {
         margin-bottom: .75rem;
+        margin-top: -0.4em;
     }
 }
 
@@ -206,10 +232,12 @@ h2, .h2 {
                 margin-top: 1.25rem;
                 margin-bottom: 24px;
             }
+
             .footer-info {
                 &.home {
                     flex-direction: column;
                 }
+
                 &.featured {
                     flex-direction: column;
                     justify-content: center;
@@ -232,8 +260,8 @@ h2, .h2 {
         margin: 0 .75rem;
     }
 }
- 
- @media screen and (max-width: 650px) {
+
+@media screen and (max-width: 650px) {
     .gallery-item {
         a {
             .gallery-photo {
@@ -242,15 +270,15 @@ h2, .h2 {
             }
         }
     }
-    
-    .featured-img {
+
+    /* .featured-img {
         .showcase-img {
             height: 65vh;
         }
-    }
- }
- 
- @media screen and (max-width: 565px) {
+    } */
+}
+
+@media screen and (max-width: 565px) {
     .page-banner {
         h1 {
             text-align: left;
@@ -262,8 +290,8 @@ h2, .h2 {
             padding: 0 1rem;
         }
     }
- }
- 
+}
+
 @media screen and (max-width: 450px) {
     header {
         .nav-main {
@@ -292,24 +320,27 @@ h2, .h2 {
                     justify-content: flex-start;
                     align-items: center;
                 }
+
                 &.featured {
                     flex-direction: column;
-                    justify-content: center;   
+                    justify-content: center;
                 }
             }
         }
     }
+
     footer .footer-content .footer-info.home {
         justify-content: flex-start;
         align-items: center;
     }
+
     footer .footer-content .footer-info.featured {
         flex-direction: column;
         justify-content: center;
     }
 }
- 
- @media screen and (max-width: 415px) {
+
+@media screen and (max-width: 415px) {
     .main-container {
         margin-top: 2rem;
     }
@@ -323,8 +354,8 @@ h2, .h2 {
     header .nav-main .nav-list .link {
         padding: 10px;
     }
- }
- 
+}
+
 /* Moto G4 width width=360px which Lighthouse runs audit on */
 @media screen and (max-width: 375px) {
     header {
@@ -336,7 +367,7 @@ h2, .h2 {
             }
         }
     }
-    
+
     .featured-img {
         margin: 0;
         padding: 0;
@@ -351,6 +382,7 @@ h2, .h2 {
             margin: 0 auto 1em auto;
         }
     }
+
     .image-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));

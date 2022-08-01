@@ -18,9 +18,10 @@ module.exports = (eleventyConfig) => {
     markdownTemplateEngine: "njk";
 
     // Perform manual passthrough file copy to include directories in the build output _site
-    eleventyConfig.addPassthroughCopy("./src/images");
-    eleventyConfig.addPassthroughCopy("./src/static/img");
-    eleventyConfig.addPassthroughCopy("./src/photos");
+    eleventyConfig.addPassthroughCopy("./src/static/img/about");
+    eleventyConfig.addPassthroughCopy("./src/static/img/books");
+    eleventyConfig.addPassthroughCopy("./src/static/img/work/mapping");
+    eleventyConfig.addPassthroughCopy("./src/static/img/work/strands");
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.addPassthroughCopy("./src/js");
     eleventyConfig.addPassthroughCopy("./src/favicon_data");
@@ -65,6 +66,7 @@ module.exports = (eleventyConfig) => {
         dir: {
             input: "src",
             output: "_site",
+            data: "_data",
             layouts: "_includes/layouts",
             includes: "_includes",
         },

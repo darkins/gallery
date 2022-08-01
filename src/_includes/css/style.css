@@ -33,9 +33,10 @@ header .nav-main .nav-list .link {
   padding: 0.8rem 0.75rem;
   margin: 0 0.4rem;
   font-size: 16px;
-  font-size: clamp(1.0625rem, 4vw, 1.2rem);
+  font-size: clamp(0.0625rem, 4vw, 1rem);
   text-decoration: none;
   display: block;
+  text-transform: uppercase;
 }
 header .nav-main .nav-list .link:first-child {
   margin-left: 0;
@@ -140,6 +141,26 @@ header .intro .hire-me:hover {
   cursor: pointer;
 }
 
+.grid {
+  display: flex;
+  gap: 2em;
+}
+.grid aside {
+  flex-basis: 300em;
+}
+.grid aside img {
+  height: auto;
+  margin-bottom: 2em;
+}
+.grid article p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 897px) {
+  .grid {
+    display: block;
+  }
+}
 .image-grid {
   list-style: none;
   display: grid;
@@ -186,8 +207,8 @@ header .intro .hire-me:hover {
   object-fit: cover;
   /* object-fit: contain; this is best but causes letterboxing" */
   max-width: 100%;
-  height: 90vh;
-  max-height: 600px;
+  /* height: 90vh; */
+  height: auto;
   margin: 1rem auto 1rem auto;
 }
 .featured-img .prev-next {
@@ -438,7 +459,12 @@ a.credit:hover {
 main p {
   margin-bottom: 24px;
 }
-main h1, main h2, main h3, main h4, main h5, main h6 {
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
   margin-bottom: 24px;
 }
 main .gallery {
@@ -452,6 +478,16 @@ main .gallery-header {
   margin: 0 auto;
   margin-bottom: 2rem;
   font-size: 30px;
+}
+main .grid-thumb {
+  /*column-count: 6;
+  column-gap: 0.3em;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0 0.3em;
+}
+main .grid-thumb .img-thumb {
+  margin-bottom: 0.3em;
 }
 
 .skip-link {
@@ -469,16 +505,23 @@ main .gallery-header {
   transform: translateY(0);
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #212121;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: clamp(2.75rem, 8vw, 3.25rem);
+  text-transform: uppercase;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: clamp(1.5rem, 5vw, 1.8rem);
 }
 
@@ -527,6 +570,7 @@ h2, .h2 {
 }
 .page-banner h1 {
   margin-bottom: 0.75rem;
+  margin-top: -0.4em;
 }
 
 .about-me-content .about-socials {
@@ -591,9 +635,11 @@ h2, .h2 {
     height: 70vh;
     max-height: 400px;
   }
-  .featured-img .showcase-img {
-    height: 65vh;
-  }
+  /* .featured-img {
+      .showcase-img {
+          height: 65vh;
+      }
+  } */
 }
 @media screen and (max-width: 565px) {
   .page-banner h1 {

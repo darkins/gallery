@@ -27,7 +27,7 @@ header {
             li {
                 margin: 0 1rem;
             }
-            
+
             a {
                 &:hover {
                     background: rgb(233, 233, 233);
@@ -41,9 +41,10 @@ header {
                 padding: .8rem .75rem;
                 margin: 0 .4rem;
                 font-size: 16px;
-                font-size: clamp(1.0625rem, 4vw, 1.2rem);
+                font-size: clamp(0.0625rem, 4vw, 1rem);
                 text-decoration: none;
                 display: block;
+                text-transform: uppercase;
 
                 &:first-child {
                     margin-left: 0;
@@ -72,6 +73,7 @@ header {
             p {
                 color: #333;
             }
+
             &:first-child {
                 margin-right: 2rem;
             }
