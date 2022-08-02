@@ -144,18 +144,17 @@ header nav ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 .featured-img .prev-next a {
   padding: 7px 10px;
-  border: 1px solid lightgray;
   border-radius: 3px;
   text-decoration: none;
   background: inherit;
-  font-size: 1em;
+  font-size: 1.5em;
+  font-weight: 700;
   color: #333;
-  background: rgb(242, 242, 242);
+  text-transform: uppercase;
 }
 .featured-img .prev-next a:hover {
   background: rgb(237, 237, 237);
@@ -308,6 +307,13 @@ main .grid-home .img-home p {
     column-gap: 1em;
   }
 }
+
+@media screen and (min-width: 1024px) { 
+  main .grid-thumb {
+    column-count: 6;
+    column-gap: 1em;
+  }
+}
 /* end grid-home */
 
 main .grid-thumb {
@@ -381,8 +387,13 @@ h2,
   padding-right: 1rem;
 }
 .image-description h1 {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.3rem;
   text-align: center;
+  font-size: 1.2rem;
+}
+
+.image-description p {
+  font-size: 14px;
 }
 
 .page-container {
