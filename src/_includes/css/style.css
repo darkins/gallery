@@ -479,15 +479,25 @@ main .gallery-header {
   margin-bottom: 2rem;
   font-size: 30px;
 }
+main .grid-home {
+  column-count: 2;
+  column-gap: 1em;
+}
+main .grid-home .img-home {
+  margin-bottom: 1em;
+}
+main .grid-home .img-home p {
+  overflow: hidden;
+}
 main .grid-thumb {
-  /*column-count: 6;
-  column-gap: 0.3em;*/
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 0 0.3em;
+  column-count: 6;
+  column-gap: 0.3em;
 }
 main .grid-thumb .img-thumb {
   margin-bottom: 0.3em;
+}
+main .grid-thumb .img-thumb p {
+  overflow: hidden;
 }
 
 .skip-link {

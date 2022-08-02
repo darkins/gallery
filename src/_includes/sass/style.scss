@@ -78,15 +78,30 @@ main {
         font-size: 30px;
     }
 
+    .grid-home {
+        column-count: 2;
+        column-gap: 1em;
+
+        .img-home {
+            margin-bottom: 1em;
+
+            p {
+                overflow: hidden;
+            }
+
+        }
+    }
+
     .grid-thumb {
-        /*column-count: 6;
-        column-gap: 0.3em;*/
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 0 0.3em;
+        column-count: 6;
+        column-gap: 0.3em;
 
         .img-thumb {
             margin-bottom: 0.3em;
+
+            p {
+                overflow: hidden;
+            }
         }
     }
 }

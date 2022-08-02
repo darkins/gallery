@@ -2,7 +2,7 @@
     <ul class="grid-thumb">
         {% for image in work.mapping %}
             <li class="img-thumb">
-                <a href="/work/{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
+                <a href="/{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
                     {% respimg 
                     src=image.src,
                     alt=image.alt,

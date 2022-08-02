@@ -1,12 +1,9 @@
-{% set navigation = collections.all | eleventyNavigation %}
 <header class="top-nav">
     <nav class="nav-main">
         <ul class="nav-list">
-            {% for link in navigation %}
-                <li>
-                    <a href="{{ link.url | url }}" class="link">{{ link.title }}</a>
-                </li>
-            {% endfor %}
+            <li>
+                <a href="/" class="link">work</a>
+            </li>
         </ul>
     </nav>
 </header>
