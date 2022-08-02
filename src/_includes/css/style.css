@@ -167,82 +167,11 @@ footer {
   bottom: 0;
   border-top: 1px solid #eee;
 }
-footer a {
+footer p {
   color: #212121;
-}
-footer a:hover {
-  color: #1836AF;
+  font-size: 0.875rem;
 }
 
-.social-links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  padding-left: 0.5rem;
-}
-.social-links li {
-  padding-right: 0.75rem;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto 3rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  max-width: 1100px;
-}
-.footer-content hr {
-  background: #000;
-  height: 2px;
-  width: 100%;
-}
-.footer-content p {
-  color: #222;
-}
-
-.footer-info {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1.4rem;
-}
-.footer-info .footer-links {
-  padding-left: 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 1rem;
-  font-size: clamp(1rem, 3vw, 1.0625rem);
-}
-.footer-info .footer-links .footer-link {
-  margin: 0 0.6rem;
-}
-.footer-info .footer-links .footer-link a {
-  color: #212121;
-}
-.footer-info .footer-links .footer-link a:hover {
-  color: #1836AF;
-}
-.footer-info.about {
-  border: none;
-}
-
-footer .social-links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  padding-left: 0.5rem;
-}
-
-footer .social-links li {
-  padding-right: 0.75rem;
-}
 
 /* 404 page styles */
 .four-oh-four {
@@ -287,8 +216,8 @@ body {
   padding: 0;
   min-height: 100vh;
   background: #fff;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 12px;
+  line-height: 1.3;
 }
 
 img {
@@ -350,12 +279,13 @@ main .grid-home .img-home {
 }
 main .grid-home .img-home h2 {
   text-transform: uppercase;
+  line-height: 1.2;
   font-size: 1.2rem;
   margin-bottom: 0;
 }
 main .grid-home .img-home p {
   overflow: hidden;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 
@@ -428,7 +358,7 @@ h2,
 
 #main {
   margin: 3rem 0;
-  min-height: 80vh;
+  min-height: 78vh;
 }
 
 .about-page {
