@@ -36,7 +36,6 @@
   "dependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "@11ty/eleventy-navigation": "^0.3.3",
     "clean-css": "^4.2.3",
     "eleventy-plugin-metagen": "^1.7.11",
     "eleventy-plugin-sharp-respimg": "^1.3.7",
