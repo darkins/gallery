@@ -4,11 +4,10 @@ header {
   border-top: 3px solid #333;
 }
 .container {
-  width: 100%;
+  max-width: 1460px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5em;
   margin: 1rem auto;
   padding: 0 1.5rem;
 }
@@ -28,12 +27,14 @@ header nav ul li {
   list-style: none;
   margin: 0 20px;
 }
+header nav ul li:last-child {
+  margin-right: 0;
+}
 header nav ul li a {
   display: block;
   position: relative;
   text-decoration: none;
-  padding: 5px;
-  font-size: 18px;
+  font-size: 0.875rem;
   font-family: sans-serif;
   color: #333;
   text-transform: uppercase;
@@ -294,13 +295,12 @@ p {
 }
 
 a {
-  color: #2540AD;
+  color: #333;
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 a:hover {
-  text-decoration: underline;
-  color: #1836AF;
+  text-decoration: none;
 }
 a.credit:hover {
   text-decoration: underline;
@@ -330,8 +330,8 @@ main .gallery-header {
   font-size: 30px;
 }
 main .grid-home {
-  column-count: 2;
-  column-gap: 1em;
+  column-count: 1;
+  column-gap: 0;
 }
 main .grid-home .img-home {
   margin-bottom: 1em;
@@ -339,6 +339,16 @@ main .grid-home .img-home {
 main .grid-home .img-home p {
   overflow: hidden;
 }
+
+
+@media screen and (min-width: 640px) {
+  main .grid-home {
+    column-count: 2;
+    column-gap: 1em;
+  }
+}
+/* end grid-home */
+
 main .grid-thumb {
   column-count: 6;
   column-gap: 0.3em;
@@ -386,7 +396,8 @@ h2,
 }
 
 #main {
-  margin-top: 3rem;
+  margin: 3rem 0;
+  min-height: 80vh;
 }
 
 .about-page {
