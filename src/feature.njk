@@ -32,9 +32,7 @@ permalink: "/{{ image.title | slug }}/"
                 </div>
                 <div class="image-description">
                     <h1 class="h2">{{ image.title }}</h1>
-                    <p>{{ image.credit }} on
-                        <a class="credit" href="{{ image.linkToAuthor }}">Pexels</a>
-                    </p>
+                    <p>{{ image.credit }}</p>
                 </div>
                 <div>
                     {% if pagination.href.next %}
