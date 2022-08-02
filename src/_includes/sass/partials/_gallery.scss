@@ -17,49 +17,6 @@
     list-style: none;
 }
 
-.gallery-item {
-    margin: .5rem auto;
-
-    &:last-child {
-        border-bottom: none;
-    }
-
-    .image-block {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-
-        .block-details {
-            margin: 1rem 0 0;
-
-            p {
-                margin-bottom: 0;
-                color: #333;
-            }
-        }
-    }
-
-    a {
-        color: #212121;
-
-        .gallery-photo {
-            max-width: 100%;
-            height: 500px;
-            max-height: 500px;
-            object-fit: cover;
-            border-radius: 2px;
-            filter: brightness(99%);
-            transition: filter 0.5s ease;
-
-            &:hover {
-                filter: brightness(105%);
-                transform-origin: 50% 50%;
-                cursor: pointer;
-            }
-        }
-    }
-}
-
 .grid {
     display: flex;
     gap: 2em;
