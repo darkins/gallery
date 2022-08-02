@@ -1,14 +1,11 @@
 const CleanCSS = require("clean-css");
-const { minify } = require("terser");
 const metagen = require("eleventy-plugin-metagen");
 const respimg = require("eleventy-plugin-sharp-respimg");
-const eleventyNavigation = require("@11ty/eleventy-navigation");
 
 module.exports = (eleventyConfig) => {
 
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(respimg);
-    eleventyConfig.addPlugin(eleventyNavigation);
 
     eleventyConfig.setTemplateFormats([
         "md",
@@ -29,21 +26,6 @@ module.exports = (eleventyConfig) => {
     // Create css-clean CSS Minifier filter
     eleventyConfig.addFilter("cssmin", function (code) {
         return new CleanCSS({}).minify(code).styles;
-    });
-
-    // Create terser JS Minifier async filter (Nunjucks)
-    eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
-        code,
-        callback
-    ) {
-        try {
-            const minified = await minify(code);
-            callback(null, minified.code);
-        } catch (err) {
-            console.log(`Terser error: ${err}`);
-            // Fail gracefully
-            callback(null, code);
-        }
     });
 
     // Configure image in a template paired shortcode
