@@ -267,7 +267,6 @@ main .grid-home .img-home {
 }
 main .grid-home .img-home h2 {
   text-transform: uppercase;
-  line-height: 1.2;
   margin-bottom: 0;
 }
 main .grid-home .img-home p {
@@ -414,16 +413,14 @@ main {
   .grid {
     display: block;
   }
+  main .grid-thumb {
+    column-count: 3;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  main .grid-home {
-    column-count: 4;
-    column-gap: 1em;
-  }
-  main .grid-thumb {
-    column-count: 6;
-    column-gap: 1em;
+  main {
+    margin: 4rem 0;
   }
 }
 
