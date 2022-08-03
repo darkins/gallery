@@ -27,7 +27,7 @@ permalink: "/{{ image.title | slug }}/"
                     {% if pagination.href.previous %}
                         <a class="prev" href="{{ pagination.href.previous }}">
                             <span class="lt">&lt;</span>
-                            Prev</a>
+                        </a>
                     {% endif %}
                 </div>
                 <div class="image-description">
@@ -37,11 +37,11 @@ permalink: "/{{ image.title | slug }}/"
                 <div>
                     {% if pagination.href.next %}
                         {% if not pagination.href.previous %}
-                            <a class="next" style="margin-left: auto; margin-right: 0;" href="{{ pagination.href.next }}">Next
+                            <a class="next" style="margin-left: auto; margin-right: 0;" href="{{ pagination.href.next }}">
                                 <span class="gt">&gt;</span>
                             </a>
                         {% else %}
-                            <a class="next" href="{{ pagination.href.next }}">Next
+                            <a class="next" href="{{ pagination.href.next }}">
                                 <span class="gt">&gt;</span>
                             </a>
                         {% endif %}

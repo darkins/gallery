@@ -192,16 +192,11 @@ header nav ul li a {
   margin-bottom: 1rem;
 }
 .featured-img .prev-next a {
-  padding: 7px 10px;
-  border-radius: 3px;
+  padding: 7px 0;
   text-decoration: none;
-  background: inherit;
-  font-weight: 700;
+  font-weight: 400;
   color: #333;
   text-transform: uppercase;
-}
-.featured-img .prev-next a:hover {
-  background: rgb(237, 237, 237);
 }
 
 /* footer */
@@ -369,6 +364,11 @@ main {
   line-height: 1.2;
 }
 
+.gt, .lt {
+  font-size: var(--fs-h1);
+  font-weight: 400;
+}
+
 .gt {
   margin-left: 3px;
 }
@@ -400,9 +400,26 @@ main {
 }
 /* smallest phones */
 @media screen and (max-width: 320px) {
+  body {
+    font-size: var(--fs-small);
+  }
   header nav a {
     font-size: 0.75rem;
     padding: 0 0.2rem;
+  }
+  .image-description {
+    margin: 0 auto;
+  }
+  .image-description h2, 
+  .image-description p {
+    font-size: var(--fs-small);
+    margin-bottom: 0;
+  }
+  .gt, .lt {
+    font-size: var(--fs-h2);
+  }
+  main {
+    min-height: 68vh;
   }
 }
 
@@ -416,7 +433,10 @@ main {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1150px) {
+  .container {
+    padding: 1rem 2rem;
+  }
   main {
     margin: 4rem 0;
   }
