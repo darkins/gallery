@@ -9,7 +9,7 @@ permalink: "/{{ image.title | slug }}/"
 ---
 
 <a href="#main" class="skip-link">Skip to main content</a>
-<main id="main" class="main-container">
+<main id="main">
     <div class="featured-img">
         <div class="image-container">
             {% respimg 
@@ -31,7 +31,7 @@ permalink: "/{{ image.title | slug }}/"
                     {% endif %}
                 </div>
                 <div class="image-description">
-                    <h1 class="h2">{{ image.title }}</h1>
+                    <h2>{{ image.title }}</h2>
                     <p>{{ image.credit }}</p>
                 </div>
                 <div>
