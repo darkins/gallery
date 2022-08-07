@@ -1,6 +1,6 @@
 <div class="gallery">
     <ul class="grid-thumb">
-        {% for image in work.mapping %}
+        {% for image in mapping %}
             <li class="img-thumb">
                 <a href="/{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
                     {% respimg 
