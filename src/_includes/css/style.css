@@ -2,11 +2,39 @@
 :root {
   --bg-color: white;
   --body-color: hsl(0, 0%, 10%);
+   /* Brand Colors */
+   --color-primary: #222222;
+   --color-secondary: #000000;
+   --color-tertiary: #ccc;
+ 
+   /* Background Colors */
+   --color-bg: #ffffff;
+   --color-bg-secondary: #f7f7f7;
+   --color-bg-accent: #c79191;
+ 
+   /* Text and Border Colors */
+   --color-text: #666666;
+   --color-text-alt: #ffffff;
+   --color-border: rgba(0, 0, 0, 0.06);
+ 
+   /* Status Colors */
+   --color-danger: #e03e3e;
+
+  --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   
-  --fs-small: 0.7125rem;
-  --fs-body: 0.8125rem;
+  --fs-small: 1rem;
+  --fs-body: 1.2rem;
+  --fs-logo: 1.7rem;
   --fs-h1: 2.5rem;
-  --fs-h2: 1.2rem;
+  --fs-h2: 1.5rem;
+
+  /* Sizes */
+  --site-width: 1024px;
+
+  /* Other */
+  --border-radius: 5px;
+  --border-radius-sm: 2px;
 }
 
 /* General Styling */
@@ -27,6 +55,10 @@
   width: 1px;
 }
 
+html {
+  font-size: 62.5%;
+  font-family: var(--font-family-base); }
+
 body {
   margin: 0;
   padding: 0;
@@ -34,7 +66,8 @@ body {
   background: var(--bg-color);
   font-size: var(--fs-body);
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.618;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 img {
@@ -43,15 +76,16 @@ img {
   object-fit: cover;
 }
 
+hr {
+  border-color: var(--color-border); }
+
 p {
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 a {
   color: #333;
   text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 a:hover {
   text-decoration: none;
@@ -78,10 +112,9 @@ header a.logo {
   text-transform: uppercase;
   text-decoration: none;
   color: #111;
-  font-size: var(--fs-500);
+  font-size: var(--fs-logo);
   font-weight: 700;
   line-height: 1;
-  font-size: 1rem;
 }
 header nav {
   display: flex;
@@ -102,7 +135,6 @@ header nav a:first-child {
 header nav ul li a {
   display: block;
   text-decoration: none;
-  font-family: sans-serif;
   color: #333;
   text-transform: uppercase;
   transition: 0.5s;
@@ -234,6 +266,11 @@ footer p {
 }
 
 /* main */
+main {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 1rem;
+}
 main p {
   margin-bottom: 24px;
 }
@@ -245,10 +282,8 @@ main h5,
 main h6 {
   margin-bottom: 2rem;
 }
-main .gallery {
-  margin: 0 auto;
-  max-width: 1100px;
-  padding: 0 1rem;
+main h1 {
+  font-weight: 400;
 }
 main .grid-home {
   column-count: 1;
@@ -299,7 +334,6 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #212121;
   text-transform: uppercase;
 }
@@ -313,7 +347,7 @@ h2 {
 }
 
 main {
-  margin: 0 0 3rem;
+  margin: 0 auto 3rem;
   min-height: 78vh;
 }
 
@@ -386,6 +420,143 @@ main {
   margin: 3rem auto 2rem auto;
 }
 
+/* Animation */
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.no-gap {
+  column-gap: 0em;
+}
+
+/* Form */
+/* Buttons, forms and input */
+.btn {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius-sm);
+  border: 2px solid  var(--color-secondary);
+  background-color: var(--color-text-alt);
+  color: var(--color-primary);
+  font-size: var(--fs-body);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus {
+  border: none;
+  filter: brightness(90%);  
+  border: 2px solid  var(--color-secondary);
+  background-color: var(--color-secondary);
+  color: var(--color-text-alt);
+}
+
+.btn--danger {
+  background-color: var(--color-danger);
+  color: var(--color-text-alt);
+}
+
+.btn--danger:hover,
+.btn--danger:focus {
+  border: none;
+  background-color: var(--color-danger);
+  color: var(--color-text-alt);
+  filter: brightness(90%);
+}
+input, textarea {
+  border: 1px solid var(--color-text); }
+  input:focus, textarea:focus {
+    border: 1px solid var(--color-primary); }
+
+textarea {
+  width: 100%; 
+  max-width: 100%;
+  min-height: 35px;
+}
+
+.btn, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--color-secondary);
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+  .btn[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
+    cursor: default;
+    opacity: .5; }
+  .btn:focus:enabled, .btn:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
+    outline: 0; }
+
+textarea, select, input {
+  color: var(--color-text);
+  padding: 1rem 1.5rem;
+  /* The 6px vertically centers text on FF, ignored by Webkit */
+  margin-bottom: 2rem;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-tertiary);
+  border-radius: 4px;
+  box-shadow: none;
+}
+  textarea:focus, select:focus, input:focus {
+    border: 1px solid var(--color-primary);
+    background-color: white; }
+
+input[type="checkbox"]:focus {
+  outline: 1px dotted var(--color-primary); }
+
+label, legend, fieldset {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; 
+}
+
+
+
+
 /* Media queries */
 @media screen and (min-width: 768px) {
  .container {
@@ -400,7 +571,7 @@ main {
   padding: 0 1rem;
  }
  main {
-  margin: 2rem 0;
+  margin: 2rem auto;
  }
 }
 /* smallest phones */
@@ -440,10 +611,10 @@ main {
 
 @media screen and (min-width: 1150px) {
   .container {
-    padding: 1rem 2rem;
+    padding: 2rem;
   }
   main {
-    margin: 4rem 0;
+    margin: 4rem auto;
   }
 }
 
