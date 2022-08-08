@@ -1,6 +1,7 @@
 const CleanCSS = require("clean-css");
 const metagen = require("eleventy-plugin-metagen");
 const respimg = require("eleventy-plugin-sharp-respimg");
+const fs = require("fs");
 
 module.exports = (eleventyConfig) => {
 
@@ -42,6 +43,28 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addShortcode("getYear", function () {
         const year = new Date().getFullYear();
         return `${year}`;
+    });
+
+    const filesToRead = [
+        "strands",
+        "mapping"
+    ];
+
+    const mergedImages = [];
+    const mergeFile = "works.json";
+
+    filesToRead.forEach((file) => {
+        fs.readFile(`${__dirname}/src/_data/${file}.json`, (err, data) => {
+            if (err) throw err;
+
+            // merge results into a single list
+            mergedImages.push(...JSON.parse(data.toString()));
+
+            // write the output file containing all the image objects
+            fs.writeFile(`${__dirname}/src/_data/${mergeFile}`, JSON.stringify(mergedImages, null, 2), (err) => {
+                if (err) throw err;
+            });
+        });
     });
 
     return {
