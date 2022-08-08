@@ -81,6 +81,7 @@ header a.logo {
   font-size: var(--fs-500);
   font-weight: 700;
   line-height: 1;
+  font-size: 1rem;
 }
 header nav {
   display: flex;
@@ -269,10 +270,10 @@ main .grid-home .img-home p {
 
 main .grid-thumb {
   column-count: 6;
-  column-gap: 0.3em;
+  column-gap: 0.6em;
 }
 main .grid-thumb .img-thumb {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.6em;
 }
 main .grid-thumb .img-thumb p {
   overflow: hidden;
@@ -371,6 +372,10 @@ main {
 
 .gt {
   margin-left: 3px;
+}
+
+.lt svg {
+  transform: rotate(180deg);
 }
 
 .lt {

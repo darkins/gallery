@@ -1,80 +1,80 @@
 [
     {
-        "title": "Broadhaven Bay",
+        "title": "Broadhaven Bay V, 2020",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Acrylic on Paper 76x105cm",
         "linkToAuthor": "/",
         "src": "broadhaven-bay-v-acrylic-on-paper-76x105cm.jpg",
         "alt": "Broadhaven Bay",
         "imgDir": "/static/img/work/mapping/"
     },
     {
-        "title": "Efflo Oil on Canvas",
+        "title": "Efflo Oil on Canvas, 2020",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Oil on Cnavas 50x50cm",
         "linkToAuthor": "/",
         "src": "efflo-oil-on-canvas-50x50cm-2020.jpg",
         "alt": "Efflo Oil on Canvas",
         "imgDir": "/static/img/work/mapping/"
     },
     {
-        "title": "Kilcummin Head",
+        "title": "Kilcummin Head, 2021",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Oil on Canvas 50x50cm",
         "linkToAuthor": "/",
         "src": "kilcummin-head-oil-on-canvas-50x50cm-2021.jpg",
         "alt": "Kilcummin Head",
         "imgDir": "/static/img/work/mapping/"
     },
     {
-        "title": "Pervigeo - Oil on Canvas",
+        "title": "Pervigeo - Oil on Canvas, 2020",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Oil on Canvas 50x50cm",
         "linkToAuthor": "/",
         "src": "pervigeo-oil-on-canvas-50x50cm-2020..jpg",
         "alt": "Pervigeo - Oil on Canvas",
         "imgDir": "/static/img/work/mapping/"
     },
     {
-        "title": "Petra I",
+        "title": "Petra I, 2021",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Acrylic on Paper 76x105cm",
         "linkToAuthor": "/",
         "src": "petra-I-2021-acrylic-on-paper-76×105cm.jpg",
         "alt": "Petra I",
         "imgDir": "/static/img/work/mapping/"
     },
     {
-        "title": "Petra II",
+        "title": "Petra II, 2021",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Acrylic on Paper 76x105cm",
         "linkToAuthor": "/",
         "src": "petra-II-2021-acrylic-on-paper-76×105cm.jpg",
         "alt": "Petra II",
         "imgDir": "/static/img/work/mapping/"
     },
     {
-        "title": "Plaga II - Oil on Canvas",
+        "title": "Plaga II, 2021",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Oil on Canvas 50x50cm",
         "linkToAuthor": "/",
         "src": "plaga-II-oil-on-canvas-50x50cm-2021.jpg",
         "alt": "Plaga II - Oil on Canvas",
         "imgDir": "/static/img/work/mapping/"
     },
     {
-        "title": "Proflo - Oil on Canvas",
+        "title": "Proflo, 2020",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Oil on Canvas 50x50cm",
         "linkToAuthor": "/",
         "src": "proflo-oil-on-canvas-50x50cm-2020.jpg",
         "alt": "Proflo - Oil on Canvas",
         "imgDir": "/static/img/work/mapping/"
     },
     {
-        "title": "Promotory I - Acrrylic on Paper",
+        "title": "Promotory I, 2020?",
         "description": "A description can go here, or not!",
-        "credit": "Photo by ...",
+        "medium": "Acrylic on Paper 76x105cm",
         "linkToAuthor": "/",
         "src": "promontory-I-acrylic-on-paper-76x105cm.jpg",
         "alt": "Promotory I - Acrrylic on Paper",

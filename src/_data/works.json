@@ -1,170 +1,160 @@
 [
   {
-    "title": "Annagh Head II",
+    "title": "By the Strand - 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
-    "src": "annagh-head-II-2021-35x38-acrylic-paper.jpg",
-    "alt": "Annagh Head II",
-    "imgDir": "/static/img/work/strands/"
-  },
-  {
-    "title": "August Headland",
-    "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
-    "src": "august-headland-2021-76x105-acrylic-paper.jpg",
-    "alt": "August Headland",
-    "imgDir": "/static/img/work/strands/"
-  },
-  {
-    "title": "By the Pier",
-    "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
-    "src": "by-the-pier-2021-26x29-acrylic-paper.jpg",
-    "alt": "By the Pier",
-    "imgDir": "/static/img/work/strands/"
-  },
-  {
-    "title": "By the Strand",
-    "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
+    "medium": "Oil on Canvas 100x120 ",
     "src": "by-the-strand-2021-100x120-oil-canvas.jpg",
     "alt": "By the Strand",
     "imgDir": "/static/img/work/strands/"
   },
   {
-    "title": "Dunlough bay diptych",
+    "title": "Annagh Head II - 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
+    "medium": "Acrylic Paper 35x38",
+    "src": "annagh-head-II-2021-35x38-acrylic-paper.jpg",
+    "alt": "Annagh Head II",
+    "imgDir": "/static/img/work/strands/"
+  },
+  {
+    "title": "August Headland - 2021",
+    "description": "A description can go here, or not!",
+    "medium": "Acrylic Paper 76x105",
+    "src": "august-headland-2021-76x105-acrylic-paper.jpg",
+    "alt": "August Headland",
+    "imgDir": "/static/img/work/strands/"
+  },
+  {
+    "title": "By the Pier - 2021",
+    "description": "A description can go here, or not!",
+    "medium": "Acrylic Paper 26x29",
+    "src": "by-the-pier-2021-26x29-acrylic-paper.jpg",
+    "alt": "By the Pier",
+    "imgDir": "/static/img/work/strands/"
+  },
+  {
+    "title": "Dunlough bay diptych - 2021",
+    "description": "A description can go here, or not!",
+    "medium": "Oil on Canvas 120x200",
     "src": "dunlough-bay-diptych-2021-120x200-oil-canvas.jpg",
     "alt": "Dunlough bay diptych",
     "imgDir": "/static/img/work/strands/"
   },
   {
-    "title": "Inishkea South Island",
+    "title": "Inishkea South Island - 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
+    "medium": "Oil on Canvas 70x80",
     "src": "inishkea-south-island-2021-70x80-oil-canvas.jpg",
     "alt": "Inishkea South Island",
     "imgDir": "/static/img/work/strands/"
   },
   {
-    "title": "Road from Lacken",
+    "title": "Road from Lacken - 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
+    "medium": "Acrylic Paper 26x29",
     "src": "road-from-lacken-2021-26x29-acrylic-paper.jpg",
     "alt": "Road from Lacken",
     "imgDir": "/static/img/work/strands/"
   },
   {
-    "title": "Ross Strand",
+    "title": "Ross Strand - 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
+    "medium": "Acrylic Paper 76x105",
     "src": "ross-strand-2021-76x105-acrylic-paper.jpg",
     "alt": "Ross Strand",
     "imgDir": "/static/img/work/strands/"
   },
   {
-    "title": "Tides Turn II",
+    "title": "Tides Turn II - 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
+    "medium": "Oil on Canvas 70x80",
     "src": "tide-turns-II-2021-I-70x80-oil-canvas.jpg",
     "alt": "Tides Turn II",
     "imgDir": "/static/img/work/strands/"
   },
   {
-    "title": "Towards the Pier",
+    "title": "Towards the Pier - 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
-    "linkToAuthor": "/",
+    "medium": "Acrylic Paper 76x105",
     "src": "towards-the-pier-2021-76x105-acrylic-paper.jpg",
     "alt": "Towards the Pier",
     "imgDir": "/static/img/work/strands/"
   },
   {
-    "title": "Broadhaven Bay",
+    "title": "Broadhaven Bay V, 2020",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Acrylic on Paper 76x105cm",
     "linkToAuthor": "/",
     "src": "broadhaven-bay-v-acrylic-on-paper-76x105cm.jpg",
     "alt": "Broadhaven Bay",
     "imgDir": "/static/img/work/mapping/"
   },
   {
-    "title": "Efflo Oil on Canvas",
+    "title": "Efflo Oil on Canvas, 2020",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Oil on Cnavas 50x50cm",
     "linkToAuthor": "/",
     "src": "efflo-oil-on-canvas-50x50cm-2020.jpg",
     "alt": "Efflo Oil on Canvas",
     "imgDir": "/static/img/work/mapping/"
   },
   {
-    "title": "Kilcummin Head",
+    "title": "Kilcummin Head, 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Oil on Canvas 50x50cm",
     "linkToAuthor": "/",
     "src": "kilcummin-head-oil-on-canvas-50x50cm-2021.jpg",
     "alt": "Kilcummin Head",
     "imgDir": "/static/img/work/mapping/"
   },
   {
-    "title": "Pervigeo - Oil on Canvas",
+    "title": "Pervigeo - Oil on Canvas, 2020",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Oil on Canvas 50x50cm",
     "linkToAuthor": "/",
     "src": "pervigeo-oil-on-canvas-50x50cm-2020..jpg",
     "alt": "Pervigeo - Oil on Canvas",
     "imgDir": "/static/img/work/mapping/"
   },
   {
-    "title": "Petra I",
+    "title": "Petra I, 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Acrylic on Paper 76x105cm",
     "linkToAuthor": "/",
     "src": "petra-I-2021-acrylic-on-paper-76×105cm.jpg",
     "alt": "Petra I",
     "imgDir": "/static/img/work/mapping/"
   },
   {
-    "title": "Petra II",
+    "title": "Petra II, 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Acrylic on Paper 76x105cm",
     "linkToAuthor": "/",
     "src": "petra-II-2021-acrylic-on-paper-76×105cm.jpg",
     "alt": "Petra II",
     "imgDir": "/static/img/work/mapping/"
   },
   {
-    "title": "Plaga II - Oil on Canvas",
+    "title": "Plaga II, 2021",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Oil on Canvas 50x50cm",
     "linkToAuthor": "/",
     "src": "plaga-II-oil-on-canvas-50x50cm-2021.jpg",
     "alt": "Plaga II - Oil on Canvas",
     "imgDir": "/static/img/work/mapping/"
   },
   {
-    "title": "Proflo - Oil on Canvas",
+    "title": "Proflo, 2020",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Oil on Canvas 50x50cm",
     "linkToAuthor": "/",
     "src": "proflo-oil-on-canvas-50x50cm-2020.jpg",
     "alt": "Proflo - Oil on Canvas",
     "imgDir": "/static/img/work/mapping/"
   },
   {
-    "title": "Promotory I - Acrrylic on Paper",
+    "title": "Promotory I, 2020?",
     "description": "A description can go here, or not!",
-    "credit": "Photo by ...",
+    "medium": "Acrylic on Paper 76x105cm",
     "linkToAuthor": "/",
     "src": "promontory-I-acrylic-on-paper-76x105cm.jpg",
     "alt": "Promotory I - Acrrylic on Paper",

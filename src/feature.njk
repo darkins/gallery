@@ -26,23 +26,35 @@ permalink: "/{{ image.title | slug }}/"
                 <div>
                     {% if pagination.href.previous %}
                         <a class="prev" href="{{ pagination.href.previous }}">
-                            <span class="lt">&lt;</span>
+                            <span class="lt">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 1L24 16L9 31" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
                         </a>
                     {% endif %}
                 </div>
                 <div class="image-description">
                     <h2>{{ image.title }}</h2>
-                    <p>{{ image.credit }}</p>
+                    <p>{{ image.medium }}</p>
                 </div>
                 <div>
                     {% if pagination.href.next %}
                         {% if not pagination.href.previous %}
                             <a class="next" style="margin-left: auto; margin-right: 0;" href="{{ pagination.href.next }}">
-                                <span class="gt">&gt;</span>
+                                <span class="gt">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 1L24 16L9 31" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
                             </a>
                         {% else %}
                             <a class="next" href="{{ pagination.href.next }}">
-                                <span class="gt">&gt;</span>
+                                <span class="gt">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 1L24 16L9 31" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
                             </a>
                         {% endif %}
                     {% endif %}
