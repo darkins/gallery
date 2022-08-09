@@ -5,7 +5,8 @@
     "medium": "Oil on Canvas 100x120 ",
     "src": "by-the-strand-2021-100x120-oil-canvas.jpg",
     "alt": "By the Strand",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Annagh Head II - 2021",
@@ -94,7 +95,8 @@
     "medium": "Acrylic Paper 100x120",
     "src": "blacksod-bay-III-2021-100x120cm.jpg",
     "alt": "Blacksod Bay III",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Rising Tide - 2021",
@@ -102,7 +104,8 @@
     "medium": "Acrylic Paper 76x105",
     "src": "rising-tide-2021-76x105-acrylic-paper.jpg",
     "alt": "Rising Tide",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Sea Caves I - 2021",
@@ -110,7 +113,8 @@
     "medium": "Acrylic Paper 76x105",
     "src": "sea-caves-I-2021-100x120.jpg",
     "alt": "Sea  I",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Shoreline, Bunatahir Bay - 2021",
@@ -118,7 +122,8 @@
     "medium": "Acrylic Paper 76x105",
     "src": "shoreline-bunatahir-bay-2021-76x105-acrylic-on-paper.jpg",
     "alt": "Shoreline, Bunatahir Bay",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Tide Turns - 2021",
@@ -126,7 +131,8 @@
     "medium": "Acrylic Paper 76x105",
     "src": "tide-turns-2021-76x105-acrylic-paper.jpg",
     "alt": "Turn Turns",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Valentia Island I - 2021",
@@ -134,7 +140,8 @@
     "medium": "Acrylic Paper 120x150",
     "src": "valentia-island-I-2021-120x150.jpg",
     "alt": "Valentia Island I",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Broadhaven Bay V, 2020",
