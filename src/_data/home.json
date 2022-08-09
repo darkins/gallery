@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Strands",
+        "description": "Claremorris Gallery, Nov 20th to Dec 20th 2021. Strands features sixteen new works by Irish painter, Donald Teskey, mostly created in County Mayo during the summer of 2021.",
+        "src": "by-the-strand-2021-100x120-oil-canvas.jpg",
+        "url": "strands",
+        "alt": "Strands",
+        "imgDir": "/static/img/work/strands/"
+    },
+    {
+        "title": "Mapping the Periphery",
+        "description": "Oliver Sears Gallery is delighted to reopen with Mapping the Peripheral, an exhibition of new paintings by Donald Teskey.",
+        "src": "broadhaven-bay-v-acrylic-on-paper-76x105cm.jpg",
+        "url": "mapping",
+        "alt": "August Headland",
+        "imgDir": "/static/img/work/mapping/"
+    }
+]

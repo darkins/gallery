@@ -1,0 +1,10 @@
+---
+layout: base.njk
+section: contact
+---
+
+<main id="main" class="fade-in">
+    <h1>{{ title }}</h1>
+    <hr/> {{ layoutContent | safe }}
+    {% include "components/form.njk" %}
+</main>

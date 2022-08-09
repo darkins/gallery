@@ -1,0 +1,22 @@
+<div class="gallery">
+    <ul class="grid-home">
+        {% for image in home %}
+            <li class="img-home">
+                <a href="/work/{{ image.url }}" aria-label="Gallery image {{ image.title }}">
+                    {% respimg 
+                src=image.src,
+                alt=image.alt,
+                inputDir="./src",
+                imgDir=image.imgDir,
+                widths=[320, 480, 640, 1024],
+                sizes="(min-width: 600px) 50vw, (min-width: 800px) 100vw, 33.3vw",
+                className="grid-image",
+                width=640,
+                height=400 %}
+                    <h2>{{ image.title }}</h2>
+                    <p>{{ image.description }}</p>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

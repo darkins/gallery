@@ -14,7 +14,7 @@ permalink: "/work/{{ image.group }}/{{ image.title | slug }}/"
 <a href="#main" class="skip-link">Skip to main content</a>
 <main id="main">
     <div class="featured-img">
-        <div class="image-container">
+        <div class="image-container fade-in">
             {% respimg 
                 src=image.src,
                 alt=image.alt,
@@ -29,13 +29,17 @@ permalink: "/work/{{ image.group }}/{{ image.title | slug }}/"
                 <div>
                     {% if prev and image.group in prev %}
                         <a class="prev" href="{{ prev }}">
-                            <span class="lt">&lt;</span>
+                            <span class="lt">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 1L24 16L9 31" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
                         </a>
                     {% endif %}
                 </div>
                 <div class="image-description">
                     <h2>{{ image.title }}</h2>
-                    <p>{{ image.credit }}</p>
+                    <p>{{ image.medium }}</p>
                 </div>
                 <div>
                     {% if next and image.group in next %}
@@ -45,7 +49,11 @@ permalink: "/work/{{ image.group }}/{{ image.title | slug }}/"
                             </a>
                         {% else %}
                             <a class="next" href="{{ next }}">
-                                <span class="gt">&gt;</span>
+                                <span class="gt">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 1L24 16L9 31" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
                             </a>
                         {% endif %}
                     {% endif %}
