@@ -2,7 +2,7 @@
     <ul class="grid-thumb">
         {% for image in strands %}
             <li class="img-thumb">
-                <a href="/{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
+                <a href="/work/strands/{{ image.title | slug }}" aria-label="Gallery image {{ image.title }}">
                     {% respimg 
                     src=image.src,
                     alt=image.alt,

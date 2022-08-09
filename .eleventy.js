@@ -58,8 +58,13 @@ module.exports = (eleventyConfig) => {
         fs.readFile(`${__dirname}/src/_data/${file}.json`, (err, data) => {
             if (err) throw err;
 
-            // merge results into a single list
-            mergedImages.push(...JSON.parse(data.toString()));
+            // merge results into a single list, add a 'group' field
+            const imageData = JSON.parse(data.toString()).map((img) => {
+                img["group"] = file;
+                return img;
+            });
+
+            mergedImages.push(...imageData);
 
             // write the output file containing all the image objects
             fs.writeFile(`${__dirname}/src/_data/${mergeFile}`, JSON.stringify(mergedImages, null, 2), (err) => {

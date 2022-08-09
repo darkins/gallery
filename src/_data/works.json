@@ -13,7 +13,8 @@
     "medium": "Acrylic Paper 35x38",
     "src": "annagh-head-II-2021-35x38-acrylic-paper.jpg",
     "alt": "Annagh Head II",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "August Headland - 2021",
@@ -21,7 +22,8 @@
     "medium": "Acrylic Paper 76x105",
     "src": "august-headland-2021-76x105-acrylic-paper.jpg",
     "alt": "August Headland",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "By the Pier - 2021",
@@ -29,7 +31,8 @@
     "medium": "Acrylic Paper 26x29",
     "src": "by-the-pier-2021-26x29-acrylic-paper.jpg",
     "alt": "By the Pier",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Dunlough bay diptych - 2021",
@@ -37,7 +40,8 @@
     "medium": "Oil on Canvas 120x200",
     "src": "dunlough-bay-diptych-2021-120x200-oil-canvas.jpg",
     "alt": "Dunlough bay diptych",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Inishkea South Island - 2021",
@@ -45,7 +49,8 @@
     "medium": "Oil on Canvas 70x80",
     "src": "inishkea-south-island-2021-70x80-oil-canvas.jpg",
     "alt": "Inishkea South Island",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Road from Lacken - 2021",
@@ -53,7 +58,8 @@
     "medium": "Acrylic Paper 26x29",
     "src": "road-from-lacken-2021-26x29-acrylic-paper.jpg",
     "alt": "Road from Lacken",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Ross Strand - 2021",
@@ -61,7 +67,8 @@
     "medium": "Acrylic Paper 76x105",
     "src": "ross-strand-2021-76x105-acrylic-paper.jpg",
     "alt": "Ross Strand",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Tides Turn II - 2021",
@@ -69,7 +76,8 @@
     "medium": "Oil on Canvas 70x80",
     "src": "tide-turns-II-2021-I-70x80-oil-canvas.jpg",
     "alt": "Tides Turn II",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Towards the Pier - 2021",
@@ -77,7 +85,8 @@
     "medium": "Acrylic Paper 76x105",
     "src": "towards-the-pier-2021-76x105-acrylic-paper.jpg",
     "alt": "Towards the Pier",
-    "imgDir": "/static/img/work/strands/"
+    "imgDir": "/static/img/work/strands/",
+    "group": "strands"
   },
   {
     "title": "Blacksod Bay III - 2021",
@@ -134,7 +143,8 @@
     "linkToAuthor": "/",
     "src": "broadhaven-bay-v-acrylic-on-paper-76x105cm.jpg",
     "alt": "Broadhaven Bay",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   },
   {
     "title": "Efflo Oil on Canvas, 2020",
@@ -143,7 +153,8 @@
     "linkToAuthor": "/",
     "src": "efflo-oil-on-canvas-50x50cm-2020.jpg",
     "alt": "Efflo Oil on Canvas",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   },
   {
     "title": "Kilcummin Head, 2021",
@@ -152,7 +163,8 @@
     "linkToAuthor": "/",
     "src": "kilcummin-head-oil-on-canvas-50x50cm-2021.jpg",
     "alt": "Kilcummin Head",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   },
   {
     "title": "Pervigeo - Oil on Canvas, 2020",
@@ -161,7 +173,8 @@
     "linkToAuthor": "/",
     "src": "pervigeo-oil-on-canvas-50x50cm-2020..jpg",
     "alt": "Pervigeo - Oil on Canvas",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   },
   {
     "title": "Petra I, 2021",
@@ -170,7 +183,8 @@
     "linkToAuthor": "/",
     "src": "petra-I-2021-acrylic-on-paper-76×105cm.jpg",
     "alt": "Petra I",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   },
   {
     "title": "Petra II, 2021",
@@ -179,7 +193,8 @@
     "linkToAuthor": "/",
     "src": "petra-II-2021-acrylic-on-paper-76×105cm.jpg",
     "alt": "Petra II",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   },
   {
     "title": "Plaga II, 2021",
@@ -188,7 +203,8 @@
     "linkToAuthor": "/",
     "src": "plaga-II-oil-on-canvas-50x50cm-2021.jpg",
     "alt": "Plaga II - Oil on Canvas",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   },
   {
     "title": "Proflo, 2020",
@@ -197,7 +213,8 @@
     "linkToAuthor": "/",
     "src": "proflo-oil-on-canvas-50x50cm-2020.jpg",
     "alt": "Proflo - Oil on Canvas",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   },
   {
     "title": "Promotory I, 2020?",
@@ -206,6 +223,7 @@
     "linkToAuthor": "/",
     "src": "promontory-I-acrylic-on-paper-76x105cm.jpg",
     "alt": "Promotory I - Acrrylic on Paper",
-    "imgDir": "/static/img/work/mapping/"
+    "imgDir": "/static/img/work/mapping/",
+    "group": "mapping"
   }
 ]

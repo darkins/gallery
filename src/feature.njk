@@ -5,27 +5,30 @@ pagination:
     alias: image
     addAllPagesToCollections: true
 layout: base.njk
-permalink: "/{{ image.title | slug }}/"
+permalink: "/work/{{ image.group }}/{{ image.title | slug }}/"
 ---
+
+{% set prev = pagination.href.previous %}
+{% set next = pagination.href.next %}
 
 <a href="#main" class="skip-link">Skip to main content</a>
 <main id="main">
     <div class="featured-img">
         <div class="image-container fade-in">
             {% respimg 
-                        src=image.src,
-                        alt=image.alt,
-                        inputDir="./src",
-                        imgDir=image.imgDir,
-                        widths=[320, 480, 640, 1024],
-                        sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 1000px) 100vw, 33.3vw",
-                        className="showcase-img",
-                        width=1024,
-                        height=768 %}
+                src=image.src,
+                alt=image.alt,
+                inputDir="./src",
+                imgDir=image.imgDir,
+                widths=[320, 480, 640, 1024],
+                sizes="(max-width: 480px) 33.3vw, (min-width: 640px) 50vw, (min-width: 1000px) 100vw, 33.3vw",
+                className="showcase-img",
+                width=1024,
+                height=768 %}
             <div class="prev-next">
                 <div>
-                    {% if pagination.href.previous %}
-                        <a class="prev" href="{{ pagination.href.previous }}">
+                    {% if prev and image.group in prev %}
+                        <a class="prev" href="{{ prev }}">
                             <span class="lt">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9 1L24 16L9 31" stroke="black" stroke-width="2" stroke-linejoin="round"/>
@@ -39,17 +42,13 @@ permalink: "/{{ image.title | slug }}/"
                     <p>{{ image.medium }}</p>
                 </div>
                 <div>
-                    {% if pagination.href.next %}
-                        {% if not pagination.href.previous %}
-                            <a class="next" style="margin-left: auto; margin-right: 0;" href="{{ pagination.href.next }}">
-                                <span class="gt">
-                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9 1L24 16L9 31" stroke="black" stroke-width="2" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
+                    {% if next and image.group in next %}
+                        {% if not prev %}
+                            <a class="next" style="margin-left: auto; margin-right: 0;" href="{{ next }}">
+                                <span class="gt">&gt;</span>
                             </a>
                         {% else %}
-                            <a class="next" href="{{ pagination.href.next }}">
+                            <a class="next" href="{{ next }}">
                                 <span class="gt">
                                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M9 1L24 16L9 31" stroke="black" stroke-width="2" stroke-linejoin="round"/>
