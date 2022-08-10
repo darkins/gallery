@@ -232,5 +232,23 @@
     "alt": "Promotory I - Acrrylic on Paper",
     "imgDir": "/static/img/work/mapping/",
     "group": "mapping"
+  },
+  {
+    "title": "At Three Castle Head I - 2019",
+    "description": "A description can go here, or not!",
+    "medium": "Oil on Canvas 80x80 ",
+    "src": "at-three-castle-head-I-2019-80x80cm-oil-on-canvas.jpg",
+    "alt": "At Three Castle Head I",
+    "imgDir": "/static/img/work/haven/",
+    "group": "haven"
+  },
+  {
+    "title": "At Three Castle Head II - 2019",
+    "description": "A description can go here, or not!",
+    "medium": "Oil on Canvas 80x80",
+    "src": "at-three-castle-head-II-2019-80x80cm-oil-on-canvas.jpg",
+    "alt": "At Three Castle Head II",
+    "imgDir": "/static/img/work/haven/",
+    "group": "haven"
   }
 ]

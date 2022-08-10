@@ -1,0 +1,49 @@
+---
+heading: Haven to Haven
+layout: main.njk
+title: Haven to Haven
+meta_desc: A collection of paintings from the exhibition Haven to Haven
+---
+
+<div class="page-container">
+    <section class="grid">
+        <aside>
+            <picture>
+                <source
+                    type="image/webp"
+                    srcSet="/static/img/work/haven/at-three-castle-head-I-2019-80x80cm-oil-on-canvas-320.webp 320w,
+                        /static/img/work/haven/at-three-castle-head-I-2019-80x80cm-oil-on-canvas-640.webp 640w,
+                        /static/img/work/haven/at-three-castle-head-I-2019-80x80cm-oil-on-canvas-1024.webp 1024w"
+                    sizes="(max-width: 450px) 33.3vw, 100vw">
+                    <img
+                        srcSet="/static/img/work/haven/at-three-castle-head-I-2019-80x80cm-oil-on-canvas-320.jpeg 320w,
+                            /static/img/work/haven/at-three-castle-head-I-2019-80x80cm-oil-on-canvas-640.jpeg 640w,
+                            /static/img/work/haven/at-three-castle-head-I-2019-80x80cm-oil-on-canvas-1024.jpeg 1024w"
+                        sizes="(max-width: 450px) 33.3vw, 100vw"
+                        src="car-320.jpeg"
+                        alt="Annagh Head II"
+                        class="my-image"
+                        width="1024"
+                        height="768"></picture>
+                </aside>
+                <article>
+                    <h1>{{ heading }}</h1>
+                    <p>
+                        Teskey began painting the sprawling beaches and towering cliffs. Like many artists in County Mayo, he often felt he did
+                        not paint the landscape so much as sudden shifts in light and weather. As he has noted, Ballycastle's geology is
+                        spectacular and similar to that of County Clare, but it remains relatively free of tourism and commercial development.
+                        As a result, the landscape provides an experience of the sublime in nature that is increasingly rare. As Teskey explored
+                        the County Mayo coastline, photography and sometimes videos provided him with memory aids, but drawing and an
+                        experimental studio practice remained his primary means for conveying the dynamism of the landscape. As he has stated,
+                        "Often, what becomes the basis of a painting is not so much the object of a scene, but the dynamic combination of lines
+                        created in the urgency of the drawing process." 1 His paintings do not capture a particular likeness of a place so much
+                        as a composite experience of being there over time.
+                    </p>
+                    <p>
+                        Extract from the essay, Drawing into Painting by Andrea Packard, Curator of Donald Teskey Landscapes at List Gallery,
+                        Swarthmore College, PA Nov 2 - Dec 10. 2017
+                    </p>
+                </article>
+            </section>
+        </div>
+        {% include "exhibitions/haven.njk" %}

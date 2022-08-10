@@ -20,6 +20,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("./src/static/img/books");
     eleventyConfig.addPassthroughCopy("./src/static/img/work/mapping");
     eleventyConfig.addPassthroughCopy("./src/static/img/work/strands");
+    eleventyConfig.addPassthroughCopy("./src/static/img/work/haven");
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.addPassthroughCopy("./src/js");
     eleventyConfig.addPassthroughCopy("./src/favicon_data");
@@ -48,7 +49,8 @@ module.exports = (eleventyConfig) => {
 
     const filesToRead = [
         "strands",
-        "mapping"
+        "mapping",
+        "haven"
     ];
 
     const mergedImages = [];
