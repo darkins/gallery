@@ -4,11 +4,23 @@ layout: page.njk
 metaDescription: This page is all about Donald Teskey
 date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
+templateEngineOverride: njk, md
 ---
 
 ![Donald Teskey](/static/img/about/donald-teskey.jpg)
 
-**Donald Teskey** was born in Co. Limerick and graduated from Limerick School of Art and Design in1978.\
+{% respimg 
+   src="donald-teskey.jpg", 
+   alt="Donald Teskey",
+   inputDir="./src",
+   imgDir="/static/img/about/",
+   widths=[360, 640, 1024],
+   sizes="(max-width: 450px) 33.3vw, 100vw",
+   width=1080, 
+   height=768 
+%}
+
+**Donald Teskey** was born in Co. Limerick and graduated from Limerick School of Art and Design in 1978.\
 He came to prominence as an artist through his skill as a draughtsman during the 1980s with several significant solo exhibitions. Since 1992 he has crafted out a substantial body of work as a painter of the landscape focusing on the ruggedness of the western seaboard. Sometimes working on a very large scale, his images reflect  his response to the formal elements of composition; shape, form and fall of light. The result are powerful images of instantly recognisable parts of the Irish landscape with large abstract passages and surfaces which articulate the relentless, energetic and elemental force of nature.
 
 He is the recipient of awards from EV+A, the Claremorris Open Exhibition, the Royal Hibernian Academy and the Royal Ulster Academy.
